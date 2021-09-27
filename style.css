@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#character{
+    width: 50px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    border: 4px solid maroon;
+    top: -425px;
+    left: 500px;
+    z-index: 10;
+}
+
+.section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 900px;
+    height: 900px;
+    position: relative;
+    top: 75px;
+    left: 75px;
+    z-index: 9;
+}
+
+.container{
+    width: 900px;
+    height: 900px;
+    display: grid;
+}
+
+#outline{
+    width: 1050px;
+    height: 1050px;
+    border: 0px solid gray;
+    position: relative;
+    top: -1000px;
+    left: 0px;
+}
+
+#everything {
+    position: relative;
+    width: 900px;
+    height: 900px;
+}
+
+#leftOutline {
+    position: absolute;
+    background-color: white;
+    height: 950px;
+    width: 175px;
+    z-index: 10;
+}
+#rightOutline {
+    position: absolute;
+    left: 875px;
+    background-color: white;
+    height: 1050px;
+    width: 175px;
+    z-index: 10;
+}
+#topOutline {
+    position: absolute;
+    background-color: white;
+    width: 950px;
+    height: 175px;
+    z-index: 10;
+}
+#buttomOutline {
+    position: absolute;
+    background-color: white;
+    top: 875px;
+    width: 1050px;
+    height: 175px;
+    z-index: 10;
+}
+#preview {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    z-index: 12;
+    opacity: 0.5;
+    top: 0px;
+    left: 0px;
+}
+#Hotbar {
+    position: absolute;
+    width: 360px;
+    height: 40px;
+    top: 885px;
+    left: 345px;
+    z-index: 1000;
+}
+.ISlot {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    border: 1px solid dimgray;
+    text-indent: 5px;
+    font-weight: bold;
+}
+#slot2 {
+    left: 40px;
+}
+#slot3 {
+    left: 80px;
+}
+#slot4 {
+    left: 120px;
+}
+#slot5 {
+    left: 160px;
+}
+#slot6 {
+    left: 200px;
+}
+#slot7 {
+    left: 240px;
+}
+#slot8 {
+    left: 280px;
+}
+#slot9 {
+    left: 320px;
+}
