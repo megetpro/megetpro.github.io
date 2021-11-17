@@ -148,7 +148,7 @@ function creatDivs() {
         div.setAttribute("data-coords", `${boxX},${boxY}`);
         boxNumber++;
         boxX++;
-        div.style.border = "1px solid dimgray"
+        div.style.border = "0px"
         container.style.gridTemplateColumns = `repeat(${GridSize}, 1fr)`;
         container.style.gridTemplateRows = `repeat(${GridSize}, 1fr)`;
         container.appendChild(div).classList.add('box')
