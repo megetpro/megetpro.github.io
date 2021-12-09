@@ -160,7 +160,7 @@ function moveleft() {
     var left = parseInt(window.getComputedStyle(earth).getPropertyValue("left"));
     moveByH = 2;
     if(bothV == 1) {
-        moveByH = 1;
+        moveByH = Math.sqrt(2);
     }
     if(left > 125) {
         UpperleftX--
@@ -176,7 +176,7 @@ function moveright() {
     var left = parseInt(window.getComputedStyle(earth).getPropertyValue("left"));
     moveByH = 2;
     if(bothV == 1) {
-        moveByH = 1;
+        moveByH = Math.sqrt(2);
     }
     if(left < 25) {
         UpperleftX++
@@ -192,7 +192,7 @@ function moveup() {
     var top = parseInt(window.getComputedStyle(earth).getPropertyValue("top"));
     moveByV = 2;
     if(bothH == 1) {
-        moveByV = 1;
+        moveByV = Math.sqrt(2);
     }
     if(top > 125) {
         UpperleftY--
@@ -208,7 +208,7 @@ function movedown() {
     var top = parseInt(window.getComputedStyle(earth).getPropertyValue("top"));
     moveByV = 2;
     if(bothH == 1) {
-        moveByV = 1;
+        moveByV = Math.sqrt(2);
     }
     if(top < 25) {
         UpperleftY++
